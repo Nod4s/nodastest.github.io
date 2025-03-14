@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>My Site</title>
+</head>
 <body>
-
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
-
+    <h1 id="greeting"></h1>
+    <script>
+        window.onload = function() {
+            document.getElementById('greeting').innerText = 'Hello everyone';
+        };
+    </script>
 </body>
 </html>
